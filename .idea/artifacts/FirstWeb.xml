@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="FirstWeb">
-    <output-path>$PROJECT_DIR$/out/artifacts/FirstWeb</output-path>
-    <properties id="ant-preprocessing">
-      <options enabled="true" />
-    </properties>
-    <root id="archive" name="FirstWeb.jar" />
-  </artifact>
-</component>
