@@ -1,0 +1,47 @@
+/**{margin: 0;padding: 0;}*/
+body{
+    background-color: rgba(70, 123, 229, 0.89);
+    /*background-image: -webkit-gradient( linear, left top, left bottom, from(#467BE5), to(#ffffff));*/
+    background-image: -webkit-linear-gradient( left, #467BE5,#ffffff);
+    background-image: linear-gradient( 90deg, #467BE5,#ffffff);
+}
+body > div{
+    width: 80%;
+    margin: auto 10%;
+}
+div div{
+    border: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
+    border-radius: 5px;
+}
+.div-spe{
+    width: 80%;
+    margin: auto 10%;
+    background-color: #ffffff;
+}
+h2{
+    text-align: center;
+}
+
+.shadow-bottom{
+    /*x偏移量 y偏移量  模糊半径 发散半径 颜色*/
+    /*单边阴影（模糊半径10px）*/
+    /*box-shadow: 0 5px 10px -2px blue;*/
+    /*四边阴影*/
+    /*box-shadow: inset 0 0 10px -2px blue;*/
+    box-shadow: 0 3px 3px rgba(255,255,255,.1),
+                0 3px 0 #bbb,
+                0 4px 0 #aaa,
+                0 5px 5px #444;
+}
+.lead-div{
+    margin:2em 0.5em;
+    height: 2em;
+    background-image: -webkit-linear-gradient( left, #97aee5,#ffffff);
+    background-image: linear-gradient( 90deg, #97aee5,#ffffff);
+}
+.button-nav{
+    margin-left:0;
+    height:100%;
+}
